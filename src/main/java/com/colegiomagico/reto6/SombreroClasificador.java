@@ -7,18 +7,18 @@ public class SombreroClasificador {
 
     public static String clasificar(String casa) {
         Switch (casa){
-            case "Gryffindor";
+            case "Gryffindor":
             return "Valentia";
 
-            case "Ravenclaw";
+            case "Ravenclaw":
             return "Inteligencia";
 
-            default 
+            default: 
             return "Desconocido";
 
         }
     }
-    
+
     public static void main(String[] args) {
         System.out.println("Gryffindor: " + clasificar("Gryffindor"));
     }
